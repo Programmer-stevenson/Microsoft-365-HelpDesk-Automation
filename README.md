@@ -2,7 +2,7 @@
 
 **PowerShell + Microsoft Graph automation for real Microsoft 365 / Microsoft Entra ID help-desk workflows.**
 
-This project packages common Microsoft 365 support tasks into a small internal operations toolkit: user onboarding, offboarding, access recovery, support diagnostics, Intune/Entra device visibility, structured audit logging, and HTML reporting.
+This  project packages common Microsoft 365 support tasks into a small internal operations toolkit: user onboarding, offboarding, access recovery, support diagnostics, Intune/Entra device visibility, structured audit logging, and HTML reporting.
 
 > **Graph-only execution:** the operational scripts authenticate to Microsoft Graph and work against the Microsoft 365 / Entra tenant you sign in to. There is no fake tenant execution path. Use only in a tenant where you are authorized to administer users and devices.
 
