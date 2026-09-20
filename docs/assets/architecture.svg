@@ -44,8 +44,9 @@
 
   <line x1="528" y1="340" x2="528" y2="415" stroke="#6e87a8" stroke-width="3" marker-end="url(#arrow)"/>
   <g filter="url(#shadow)">
-    <rect x="347" y="430" width="363" height="60" rx="16" fill="#111f31" stroke="#29415f"/>
-    <text x="372" y="466" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">JSONL audit trail + evidence + HTML operations report</text>
+    <rect x="347" y="426" width="363" height="72" rx="16" fill="#111f31" stroke="#29415f"/>
+    <text x="528.5" y="455" text-anchor="middle" font-family="Segoe UI,Arial" font-size="15" font-weight="600" fill="#f0f6fc">Audit trail and evidence</text>
+    <text x="528.5" y="479" text-anchor="middle" font-family="Segoe UI,Arial" font-size="14" fill="#9fb2ca">JSONL activity log + HTML operations report</text>
   </g>
   <rect x="55" y="405" width="230" height="5" rx="2.5" fill="url(#accent)"/>
 </svg>
