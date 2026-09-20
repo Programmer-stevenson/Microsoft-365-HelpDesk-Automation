@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Microsoft 365 Help Desk Automation architecture</title>
+  <desc id="desc">PowerShell help desk workflows authenticate through Microsoft Graph and operate on Entra ID, Microsoft 365, and Intune, with local audit logging and HTML reporting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="1" stop-color="#101d33"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#7ee787"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".25"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6e87a8"/></marker>
+  </defs>
+  <rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+  <text x="56" y="66" font-family="Segoe UI,Arial" font-size="28" font-weight="700" fill="#f0f6fc">Microsoft 365 Help Desk Automation</text>
+  <text x="56" y="97" font-family="Segoe UI,Arial" font-size="16" fill="#8fa6c3">PowerShell + Microsoft Graph • delegated admin workflows • structured audit reporting</text>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="155" width="230" height="205" rx="18" fill="#101c2e" stroke="#29415f"/>
+    <text x="80" y="195" font-family="Segoe UI,Arial" font-size="19" font-weight="700" fill="#f0f6fc">Help Desk Operator</text>
+    <text x="80" y="231" font-family="Segoe UI,Arial" font-size="14" fill="#b5c5d9">• New employee</text>
+    <text x="80" y="258" font-family="Segoe UI,Arial" font-size="14" fill="#b5c5d9">• Access reset</text>
+    <text x="80" y="285" font-family="Segoe UI,Arial" font-size="14" fill="#b5c5d9">• Support snapshot</text>
+    <text x="80" y="312" font-family="Segoe UI,Arial" font-size="14" fill="#b5c5d9">• Offboarding</text>
+    <text x="80" y="339" font-family="Segoe UI,Arial" font-size="14" fill="#b5c5d9">• HTML report</text>
+  </g>
+
+  <line x1="285" y1="258" x2="385" y2="258" stroke="#6e87a8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="405" y="175" width="245" height="165" rx="18" fill="#10253a" stroke="#3f6d92"/>
+    <text x="433" y="218" font-family="Segoe UI,Arial" font-size="20" font-weight="700" fill="#f0f6fc">Microsoft Graph</text>
+    <text x="433" y="250" font-family="Segoe UI,Arial" font-size="14" fill="#9fc7e6">Delegated authentication</text>
+    <text x="433" y="277" font-family="Segoe UI,Arial" font-size="14" fill="#9fc7e6">Workflow-specific scopes</text>
+    <text x="433" y="304" font-family="Segoe UI,Arial" font-size="14" fill="#9fc7e6">v1.0 REST endpoints</text>
+  </g>
+
+  <line x1="650" y1="258" x2="745" y2="258" stroke="#6e87a8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="765" y="135" width="380" height="245" rx="18" fill="#101c2e" stroke="#29415f"/>
+    <text x="793" y="178" font-family="Segoe UI,Arial" font-size="20" font-weight="700" fill="#f0f6fc">Microsoft Cloud Services</text>
+    <rect x="793" y="204" width="148" height="58" rx="12" fill="#162a42"/><text x="813" y="239" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">Microsoft Entra ID</text>
+    <rect x="957" y="204" width="160" height="58" rx="12" fill="#162a42"/><text x="979" y="239" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">Microsoft 365</text>
+    <rect x="793" y="278" width="148" height="58" rx="12" fill="#162a42"/><text x="837" y="313" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">Intune</text>
+    <rect x="957" y="278" width="160" height="58" rx="12" fill="#162a42"/><text x="983" y="313" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">Sign-in logs</text>
+  </g>
+
+  <line x1="528" y1="340" x2="528" y2="415" stroke="#6e87a8" stroke-width="3" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="347" y="430" width="363" height="60" rx="16" fill="#111f31" stroke="#29415f"/>
+    <text x="372" y="466" font-family="Segoe UI,Arial" font-size="15" fill="#dbe7f4">JSONL audit trail + evidence + HTML operations report</text>
+  </g>
+  <rect x="55" y="405" width="230" height="5" rx="2.5" fill="url(#accent)"/>
+</svg>

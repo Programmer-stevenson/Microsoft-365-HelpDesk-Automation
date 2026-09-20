@@ -1,0 +1,36 @@
+# Tenant-derived output / potentially sensitive data
+data/audit-log.jsonl
+data/snapshots/*.json
+data/offboarding/*.json
+reports/*.html
+
+# Private working inputs
+config/*.private.csv
+config/*.private.json
+.env
+.env.*
+*.secret.*
+*.key
+*.pem
+*.pfx
+*.zip
+
+# Keep directory placeholders
+!data/snapshots/.gitkeep
+!data/offboarding/.gitkeep
+!reports/.gitkeep
+
+# PowerShell / editor noise
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test-tenant integration output
+/tests/results/*
+!/tests/results/.gitkeep
+
+# Python validation noise
+__pycache__/
+*.pyc
